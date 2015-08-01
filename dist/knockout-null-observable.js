@@ -15,7 +15,7 @@ ko.nullObservable = function(initialValue){
             if (newValue === '') {
                 newValue = null;
             }
-            return newValue;
+            obsv(newValue);
         }
     })
 }
